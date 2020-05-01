@@ -10,7 +10,6 @@ import org.jgrapht.graph.DefaultEdge;
 import org.jgrapht.graph.SimpleDirectedGraph;
 
 import it.polito.tdp.metroparis.db.MetroDAO;
-import javafx.util.Pair;
 
 public class Model {
 	
@@ -72,7 +71,7 @@ public class Model {
 	}
 	
 	public static void main(String args[]) {
-		Model m = new Model() ;
+		new Model() ;
 	}
 
 }
